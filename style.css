@@ -1,0 +1,76 @@
+*{
+		/*background-color: #f6f6f6;*/
+		padding: 0;
+		margin: 0;
+}
+a{
+	color:#FF0000;
+}
+a:visited{
+	color: #8A2BE2;
+}
+a:active {
+    color: #8B0000; /* Цвет активных ссылок */
+   }
+.menu{
+	background: red;
+	word-spacing:5px;
+	font-size: 14px;
+	display: block;
+	float: right;	
+	margin:  0 10px 0 0;
+	
+}
+li{
+	list-style-type:  none;
+}
+a{
+
+	text-decoration: none;
+}
+.viki {
+	font-size: 35px;
+
+}
+.photo_in_menu{
+	float: left;
+	margin: 0 26px;
+		
+}
+header{
+	width: 100%;
+	margin-top:	 1%;
+	height: 156px;
+	background: blue;
+}
+main {
+	background: red;
+	display:block;
+	width: 100%;
+}
+.links_in_left{
+	width: 19;
+	display: block;
+	background: red;
+	float: left;
+}
+.links{
+	font-size: 14px;
+	padding-left: 39px;
+	display: block;
+	line-height: 20px;
+	}
+.standart
+{
+	line-height: 25px;
+	font-size: 14px;
+	margin-left: 35px;
+	
+}
+
+.tabs{
+	margin: 0 auto;
+width: 200px;
+height: 200px;
+background: yellow;
+}

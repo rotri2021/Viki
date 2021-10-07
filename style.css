@@ -1,5 +1,5 @@
 *{
-		/*background-color: #f6f6f6;*/
+		background-color: #f6f6f6;
 		padding: 0;
 		margin: 0;
 }
@@ -10,10 +10,9 @@ a:visited{
 	color: #8A2BE2;
 }
 a:active {
-    color: #8B0000; /* Цвет активных ссылок */
+    color: #8B0000; 
    }
 .menu{
-	background: red;
 	word-spacing:5px;
 	font-size: 14px;
 	display: block;
@@ -41,17 +40,14 @@ header{
 	width: 100%;
 	margin-top:	 1%;
 	height: 156px;
-	background: blue;
 }
 main {
-	background: red;
 	display:block;
 	width: 100%;
 }
 .links_in_left{
 	width: 19;
 	display: block;
-	background: red;
 	float: left;
 }
 .links{
@@ -69,8 +65,28 @@ main {
 }
 
 .tabs{
-	margin: 0 auto;
-width: 200px;
-height: 200px;
-background: yellow;
+	width: 478px;
+	border: 1px solid #a7d7f9;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+.tabs button {
+	float: left; /*Забирає пробіли між кнопками*/
+	border: none; /*Забирає таблички*/
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+.tabs button:hover {
+	background-color: #3333;
+}
+.tabd button.active {
+	background-color: #a7d7f9;
+
+}
+.tabcontent{
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #a7d7f9;
+	border-top: none;
 }

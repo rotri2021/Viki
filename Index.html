@@ -7,6 +7,7 @@
 	<title>Вікіпедія</title>
 </head>
 <body>
+	<script src="Style.js"></script>
 	<header>
 
 		<div class="photo_in_menu">
@@ -29,19 +30,39 @@
 			</ul>
 			
 		</div>
-			<div class="tabs">
-		<div class="tab_border">Заглавная</div>
-		<div class="tab">Обсуждение</div>
-		<div class="tab">Читать</div>
-		<div class="tab">Просмотр кода</div>
-		<div class="tab">История</div>
+<div class="tabs">
+		<button class="tabslink" onclick="openMenu(event, 'Glovna' )">Головна</button>
 
-		<div class="tab_content">1</div>
-		<div class="tab_content">2</div>
-		<div class="tab_content">3 </div>
-		<div class="tab_content">4 </div>
-		<div class="tab_content">5 </div>
-	</div>
+		<button class="tabslink" onclick="openMenu(event, 'Obslyga' )">Обслуговування</button>
+
+		<button class="tabslink" onclick="openMenu(event, 'Read' )">Читати</button>
+
+		<button class="tabslink" onclick="openMenu(event, 'Code' )">Оглянути код</button>
+
+		<button class="tabslink" onclick="openMenu(event, 'Histori' )">Історія</button>
+</div>
+		<div class="tabcontent" id="Glovna">
+			<h3>Добро пожаловать в Википедию,</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus eius. Dolorum voluptatum eveniet sit, esse vero vitae eius iste animi nesciunt accusantium voluptate perspiciatis sunt rem impedit commodi laudantium.</p>
+		</div>
+
+		<div class="tabcontent" id="Obslyga">
+			<h3>Обсуждение:Заглавная страница</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, enim corporis eveniet non reprehenderit ipsa natus explicabo, accusamus, harum consequatur iusto maxime aut odit obcaecati ipsum, at?</p>
+		</div>
+
+		<div class="tabcontent" id="Read">
+			
+		</div>
+
+		<div class="tabcontent" id="Code">
+			
+		</div>
+
+		<div class="tabcontent" id="Histori">
+			
+		</div>
+	
 	
 		
 	</header>

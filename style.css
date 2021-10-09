@@ -4,7 +4,7 @@
 		margin: 0;
 }
 a{
-	color:#FF0000;
+	color:#ccc;
 }
 a:visited{
 	color: #8A2BE2;
@@ -71,17 +71,23 @@ main {
 	background-color: #f1f1f1;
 }
 .tabs button {
+	background-color: inherit;
 	float: left; /*Забирає пробіли між кнопками*/
 	border: none; /*Забирає таблички*/
 	cursor: pointer;
+	outline: none;
 	padding: 14px 16px;
 	transition: 0.3s;
+
 }
 .tabs button:hover {
 	background-color: #a7d7f9;
+	opacity: 0.33;
+	color: #800000;
 }
 .tabd button.active {
 	background-color: #f1f1f1;
+
 
 }
 .tabcontent{

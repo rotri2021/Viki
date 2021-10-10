@@ -71,13 +71,10 @@ main {
 	background-color: #f1f1f1;
 }
 .tabs button {
-	background-color: inherit;
 	float: left; /*Забирає пробіли між кнопками*/
 	border: none; /*Забирає таблички*/
-	cursor: pointer;
-	outline: none;
 	padding: 14px 16px;
-	transition: 0.3s;
+	transition: 1s;
 
 }
 .tabs button:hover {
@@ -94,5 +91,5 @@ main {
 	display: none;
 	padding: 6px 12px;
 	border: 1px solid #a7d7f9;
-	border-top: none;
+	border-top: none; 
 }

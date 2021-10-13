@@ -1,95 +1,18 @@
-*{
-		background-color: #f6f6f6;
-		padding: 0;
-		margin: 0;
+body {
+	background-color: #ccc
 }
-a{
-	color:#ccc;
+.top_menu{
+		width: 100%;
+		float: right;
 }
-a:visited{
-	color: #8A2BE2;
-}
-a:active {
-    color: #8B0000; 
-   }
-.menu{
-	word-spacing:5px;
-	font-size: 14px;
-	display: block;
-	float: right;	
-	margin:  0 10px 0 0;
-	
-}
-li{
-	list-style-type:  none;
-}
-a{
-
+.links_ul  a {
 	text-decoration: none;
 }
-.viki {
-	font-size: 35px;
-
+.links_ul li{
+	display: inline;
+	margin-left: 10px;
+	list-style-type: none;
 }
-.photo_in_menu{
-	float: left;
-	margin: 0 26px;
-		
-}
-header{
-	width: 100%;
-	margin-top:	 1%;
-	height: 156px;
-}
-main {
-	display:block;
-	width: 100%;
-}
-.links_in_left{
-	width: 19;
-	display: block;
-	float: left;
-}
-.links{
-	font-size: 14px;
-	padding-left: 39px;
-	display: block;
-	line-height: 20px;
-	}
-.standart
-{
-	line-height: 25px;
-	font-size: 14px;
-	margin-left: 35px;
-	
-}
-
-.tabs{
-	width: 478px;
-	border: 1px solid #a7d7f9;
-	overflow: hidden;
-	background-color: #f1f1f1;
-}
-.tabs button {
-	float: left; /*Забирає пробіли між кнопками*/
-	border: none; /*Забирає таблички*/
-	padding: 14px 16px;
-	transition: 1s;
-
-}
-.tabs button:hover {
-	background-color: #a7d7f9;
-	opacity: 0.33;
-	color: #800000;
-}
-.tabd button.active {
-	background-color: #f1f1f1;
-
-
-}
-.tabcontent{
-	display: none;
-	padding: 6px 12px;
-	border: 1px solid #a7d7f9;
-	border-top: none; 
+.alling{
+	display: flex;
 }

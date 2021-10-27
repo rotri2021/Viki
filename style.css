@@ -1,7 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
-background-color: #ccc
+	background-color: #f6f6f6;
 }
 .top_menu{
 	padding-right: 10px;
@@ -39,8 +39,9 @@ text-decoration: none;
 	list-style-type: none;
 }
 .main{
+	padding: 10px;
+	border-left-style: solid;
 	display: inline-block;
-	background-color: yellow;
 	width: 100%;
 }
 .conteiner_content{
@@ -50,4 +51,9 @@ text-decoration: none;
 .footer{
 	background-color: gray;
 	height: 100px;
+}
+.tabs_item{
+	border-right-style: solid;
+	padding: 10px;
+	text-decoration: none;
 }

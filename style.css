@@ -159,12 +159,10 @@ text-decoration: none;
 	margin-bottom: 4px;
 }	
 
-
-
-
 form {
   position: relative;
   width: 300px;
+  bottom: 15px;
   border:1px solid black;
 }
 input, button {

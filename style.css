@@ -40,14 +40,15 @@ text-decoration: none;
 }
 .main{
 	padding: 10px;
-	border-left-style: solid;
 	display: inline-block;
 	width: 100%;
+	border-left: .6px solid#a7d7f9;
 }
 .conteiner_content{
 	display: flex;
 	flex-direction: row;
 }
+
 .tabs_block{
 	display: none;
 }
@@ -59,7 +60,7 @@ text-decoration: none;
 
 }
 .tabs_item{
-	border-right-style: solid;
+	border-right:.6px solid#a7d7f9;
 	padding: 10px;
 	text-decoration: none;
 }
@@ -158,14 +159,16 @@ text-decoration: none;
 	margin-left: 100px;
 	margin-bottom: 4px;
 }	
-
-form {
-  position: relative;
+.search{
+    float: right;
+}
+form{ 
   width: 300px;
   bottom: 15px;
   border:1px solid black;
 }
-input, button {
+.form_tbg{position: relative;}
+input, .search_button {
   border: none;
   background: transparent;
 }
@@ -174,7 +177,7 @@ input {
   height: 35px;
   padding-left: 10px;
 }
-button {
+.search_button{
   position: absolute;
   top: 0;
   right: 0;
@@ -183,11 +186,34 @@ button {
   width: 40px; 
   height: 40px;
 }
-button:before {
+.search_button:before {
   font-family: FontAwesome;
   font-size: 16px;
   color: #F9F0DA;
 }
 .buttim_form_tabs{
 	float: right;
+}
+.text_decorition{
+	font-weight:normal;
+	margin:0;
+	padding-left: 10px;
+	border-bottom: 0.5px solid ;
+}
+.text_form{
+	width: 278px;
+  border:1px solid black;
+  display: block;
+}
+.inp_div{
+margin-top: 15px;
+
+}
+
+.label_button{
+	background-color: #3366cc;
+    color: #fff;
+    border-color: #3366cc;
+    width: 293px;
+    height: 30px;
 }

@@ -7,3 +7,14 @@ document.getElementById('check').onclick =function (){
 
 		else alert("Error!!");
 }
+
+document.getElementById('check_registr').onclick_register = function() {
+	let login = document.getElementById('login').value;
+	let password = document.getElementById('password').value;
+
+	if(login == null && password == null)
+	{
+		alert('Ви не ввели логін або пароль');
+	}
+	
+}

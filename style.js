@@ -1,4 +1,5 @@
-document.getElementById('check').onclick =function (){
+function submit (){
+	debugger
 	let login = document.getElementById('login').value;	
 	let password = document.getElementById('password').value;	
 	
@@ -8,13 +9,15 @@ document.getElementById('check').onclick =function (){
 		else alert("Error!!");
 }
 
-document.getElementById('check_registr').onclick_register = function() {
+function register () {
+	debugger
 	let login = document.getElementById('login').value;
 	let password = document.getElementById('password').value;
 
-	if(login == null && password == null)
-	{
-		alert('Ви не ввели логін або пароль');
-	}
+	if(!login  && !password )
+  {
+  	debugger;
+    alert('Ви не ввели логін або пароль');
+  }
 	
 }
